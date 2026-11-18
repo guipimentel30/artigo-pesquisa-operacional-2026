@@ -1,0 +1,415 @@
+{
+  "generated_at": "2026-11-12T23:38:33",
+  "method_family": "Baselines do Artigo Original (Buter et al., 2024)",
+  "experiment_1_table4": [
+    {
+      "municipality": "Heiloo",
+      "n_train_demands": 250,
+      "n_candidates": 500,
+      "n_aeds": 16,
+      "seed": 42,
+      "bip": {
+        "train_pct": 48.926,
+        "eval_pct": 41.6845,
+        "cpu_sec": 0.8581,
+        "optimality_gap_pct": 0.0
+      },
+      "grasp_classico": {
+        "train_pct": 48.926,
+        "eval_pct": 41.6845,
+        "cpu_sec": 0.461,
+        "gap_to_bip_pct": 0.0,
+        "iterations": 96
+      },
+      "greedy": {
+        "train_pct": 47.3132,
+        "eval_pct": 40.2911,
+        "cpu_sec": 0.0003,
+        "gap_to_bip_pct": 3.2964
+      }
+    },
+    {
+      "municipality": "Heiloo",
+      "n_train_demands": 500,
+      "n_candidates": 500,
+      "n_aeds": 16,
+      "seed": 42,
+      "bip": {
+        "train_pct": 48.0706,
+        "eval_pct": 42.5703,
+        "cpu_sec": 4.5928,
+        "optimality_gap_pct": 0.0
+      },
+      "grasp_classico": {
+        "train_pct": 48.0706,
+        "eval_pct": 42.5703,
+        "cpu_sec": 0.8427,
+        "gap_to_bip_pct": 0.0,
+        "iterations": 96
+      },
+      "greedy": {
+        "train_pct": 46.4299,
+        "eval_pct": 41.8251,
+        "cpu_sec": 0.0004,
+        "gap_to_bip_pct": 3.4131
+      }
+    },
+    {
+      "municipality": "Heiloo",
+      "n_train_demands": 1000,
+      "n_candidates": 500,
+      "n_aeds": 16,
+      "seed": 42,
+      "bip": {
+        "train_pct": 46.2443,
+        "eval_pct": 43.2302,
+        "cpu_sec": 34.8299,
+        "optimality_gap_pct": 0.0026
+      },
+      "grasp_classico": {
+        "train_pct": 46.2312,
+        "eval_pct": 43.2388,
+        "cpu_sec": 1.7623,
+        "gap_to_bip_pct": 0.0283,
+        "iterations": 96
+      },
+      "greedy": {
+        "train_pct": 44.6659,
+        "eval_pct": 42.6919,
+        "cpu_sec": 0.0013,
+        "gap_to_bip_pct": 3.4132
+      }
+    }
+  ],
+  "experiment_2_table5": [
+    {
+      "municipality": "Aalsmeer",
+      "n_aeds": 3,
+      "historic_ohcas": 99,
+      "n_candidates": 1000,
+      "seed": 100,
+      "current_eval_pct": 11.2805,
+      "train_pct": 23.3652,
+      "relocated_eval_pct": 23.5683,
+      "rel_improvement_pct": 108.93,
+      "cpu_sec": 1.2962,
+      "iterations": 96,
+      "selected_candidates": [
+        639,
+        760,
+        768
+      ]
+    },
+    {
+      "municipality": "Uithoorn",
+      "n_aeds": 7,
+      "historic_ohcas": 105,
+      "n_candidates": 1000,
+      "seed": 101,
+      "current_eval_pct": 12.8947,
+      "train_pct": 48.8691,
+      "relocated_eval_pct": 48.1514,
+      "rel_improvement_pct": 273.42,
+      "cpu_sec": 2.5395,
+      "iterations": 96,
+      "selected_candidates": [
+        313,
+        428,
+        203,
+        394,
+        252,
+        566,
+        530
+      ]
+    },
+    {
+      "municipality": "Heiloo",
+      "n_aeds": 16,
+      "historic_ohcas": 97,
+      "n_candidates": 1000,
+      "seed": 102,
+      "current_eval_pct": 30.3413,
+      "train_pct": 46.7925,
+      "relocated_eval_pct": 43.9933,
+      "rel_improvement_pct": 45.0,
+      "cpu_sec": 4.7022,
+      "iterations": 96,
+      "selected_candidates": [
+        320,
+        241,
+        659,
+        452,
+        489,
+        810,
+        186,
+        485,
+        324,
+        315,
+        818,
+        606,
+        478,
+        469,
+        48,
+        494
+      ]
+    },
+    {
+      "municipality": "Enkhuizen",
+      "n_aeds": 24,
+      "historic_ohcas": 76,
+      "n_candidates": 1000,
+      "seed": 103,
+      "current_eval_pct": 39.014,
+      "train_pct": 60.5693,
+      "relocated_eval_pct": 58.0713,
+      "rel_improvement_pct": 48.85,
+      "cpu_sec": 5.1372,
+      "iterations": 96,
+      "selected_candidates": [
+        293,
+        402,
+        311,
+        229,
+        502,
+        527,
+        96,
+        922,
+        429,
+        409,
+        332,
+        170,
+        575,
+        381,
+        474,
+        147,
+        765,
+        86,
+        163,
+        398,
+        714,
+        289,
+        569,
+        188
+      ]
+    },
+    {
+      "municipality": "Zaanstad",
+      "n_aeds": 44,
+      "historic_ohcas": 616,
+      "n_candidates": 1000,
+      "seed": 104,
+      "current_eval_pct": 27.2164,
+      "train_pct": 53.2045,
+      "relocated_eval_pct": 49.6265,
+      "rel_improvement_pct": 82.34,
+      "cpu_sec": 6.1207,
+      "iterations": 96,
+      "selected_candidates": [
+        699,
+        875,
+        703,
+        454,
+        787,
+        889,
+        139,
+        472,
+        305,
+        560,
+        852,
+        90,
+        260,
+        932,
+        198,
+        441,
+        792,
+        153,
+        970,
+        27,
+        629,
+        509,
+        780,
+        649,
+        601,
+        694,
+        399,
+        790,
+        797,
+        349,
+        750,
+        410,
+        653,
+        310,
+        405,
+        783,
+        182,
+        552,
+        923,
+        563,
+        316,
+        947,
+        54,
+        94
+      ]
+    }
+  ],
+  "experiment_2_overall_weighted_mu_m": {
+    "current_eval_pct": 25.3214,
+    "train_pct": 49.7085,
+    "relocated_eval_pct": 46.9686
+  },
+  "experiment_3_table6": [
+    {
+      "municipality": "Aalsmeer",
+      "n_candidates": 1000,
+      "seed": 100,
+      "eval_pct_by_n": {
+        "0": 11.2805,
+        "5": 36.1399,
+        "10": 45.9833,
+        "20": 56.8005,
+        "40": 66.6837
+      },
+      "train_pct_by_n": {
+        "5": 35.9775,
+        "10": 46.8805,
+        "20": 59.0399,
+        "40": 69.5111
+      },
+      "cpu_sec_by_n": {
+        "5": 1.59,
+        "10": 2.3654,
+        "20": 4.4092,
+        "40": 7.7364
+      }
+    },
+    {
+      "municipality": "Uithoorn",
+      "n_candidates": 1000,
+      "seed": 101,
+      "eval_pct_by_n": {
+        "0": 12.8947,
+        "5": 46.9695,
+        "10": 56.9722,
+        "20": 66.6831,
+        "40": 75.2265
+      },
+      "train_pct_by_n": {
+        "5": 47.4105,
+        "10": 57.6318,
+        "20": 67.8215,
+        "40": 76.8776
+      },
+      "cpu_sec_by_n": {
+        "5": 1.3276,
+        "10": 2.5274,
+        "20": 4.2854,
+        "40": 7.2871
+      }
+    },
+    {
+      "municipality": "Zaanstad",
+      "n_candidates": 1000,
+      "seed": 104,
+      "eval_pct_by_n": {
+        "0": 27.2164,
+        "5": 35.896,
+        "10": 41.5359,
+        "20": 48.1145,
+        "40": 55.66
+      },
+      "train_pct_by_n": {
+        "5": 36.6715,
+        "10": 42.0163,
+        "20": 49.5849,
+        "40": 58.7224
+      },
+      "cpu_sec_by_n": {
+        "5": 0.3554,
+        "10": 0.7435,
+        "20": 2.1335,
+        "40": 3.7149
+      }
+    }
+  ],
+  "experiment_3_overall_weighted_mu_m": {
+    "0": 23.4586,
+    "5": 37.3434,
+    "10": 44.0494,
+    "20": 51.5409,
+    "40": 59.4964
+  },
+  "experiment_4_table7": {
+    "Piecewise linear": {
+      "Piecewise linear": {
+        "eval_pct": 49.6265,
+        "relative_to_diag_pct": 100.0
+      },
+      "Sigmoid": {
+        "eval_pct": 54.237,
+        "relative_to_diag_pct": 99.3194
+      },
+      "Binary": {
+        "eval_pct": 72.84,
+        "relative_to_diag_pct": 96.6817
+      },
+      "Exponential": {
+        "eval_pct": 41.3163,
+        "relative_to_diag_pct": 100.1828
+      }
+    },
+    "Sigmoid": {
+      "Piecewise linear": {
+        "eval_pct": 49.6989,
+        "relative_to_diag_pct": 100.1459
+      },
+      "Sigmoid": {
+        "eval_pct": 54.6087,
+        "relative_to_diag_pct": 100.0
+      },
+      "Binary": {
+        "eval_pct": 72.28,
+        "relative_to_diag_pct": 95.9384
+      },
+      "Exponential": {
+        "eval_pct": 41.434,
+        "relative_to_diag_pct": 100.4681
+      }
+    },
+    "Binary": {
+      "Piecewise linear": {
+        "eval_pct": 48.8501,
+        "relative_to_diag_pct": 98.4356
+      },
+      "Sigmoid": {
+        "eval_pct": 52.7872,
+        "relative_to_diag_pct": 96.6646
+      },
+      "Binary": {
+        "eval_pct": 75.34,
+        "relative_to_diag_pct": 100.0
+      },
+      "Exponential": {
+        "eval_pct": 40.6353,
+        "relative_to_diag_pct": 98.5315
+      }
+    },
+    "Exponential": {
+      "Piecewise linear": {
+        "eval_pct": 48.557,
+        "relative_to_diag_pct": 97.845
+      },
+      "Sigmoid": {
+        "eval_pct": 53.0194,
+        "relative_to_diag_pct": 97.0897
+      },
+      "Binary": {
+        "eval_pct": 68.64,
+        "relative_to_diag_pct": 91.107
+      },
+      "Exponential": {
+        "eval_pct": 41.2409,
+        "relative_to_diag_pct": 100.0
+      }
+    }
+  }
+}

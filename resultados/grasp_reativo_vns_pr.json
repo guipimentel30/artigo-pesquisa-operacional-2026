@@ -1,0 +1,1122 @@
+{
+  "generated_at": "2026-11-12T23:41:42",
+  "method_family": "GRASP Reativo (Slide 17) + Basic VNS (Slide 28, r = 3) + Path Relinking (Slide 76: SB -> SA em top-4 abaixo de SB)",
+  "alpha_pool": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "block_size": 15,
+  "gamma": 4.0,
+  "r_max": 3,
+  "n_pr_targets": 4,
+  "experiment_1_table4": [
+    {
+      "municipality": "Heiloo",
+      "n_train_demands": 250,
+      "n_candidates": 500,
+      "n_aeds": 16,
+      "seed": 42,
+      "grasp_classico_ref": {
+        "train_pct": 48.926,
+        "eval_pct": 41.6845,
+        "cpu_sec": 0.461
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 48.926,
+        "eval_pct": 41.6845,
+        "cpu_sec": 0.8184
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 48.926,
+        "eval_pct": 41.6845,
+        "cpu_sec": 0.8628,
+        "delta_train_vs_classico_pp": -0.0,
+        "delta_eval_vs_classico_pp": 0.0,
+        "delta_train_vs_rvns_pp": -0.0,
+        "vns_stats": {
+          "ls_calls": 422,
+          "shakes_by_k": {
+            "k1": 111,
+            "k2": 111,
+            "k3": 104
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 7,
+            "k3": 8
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 1,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.1185,
+          "0.2": 0.1743,
+          "0.3": 0.0724,
+          "0.4": 0.0608,
+          "0.5": 0.059,
+          "0.6": 0.01,
+          "0.7": 0.0516,
+          "0.8": 0.1105,
+          "0.85": 0.0694,
+          "0.9": 0.1471,
+          "0.95": 0.1264
+        }
+      }
+    },
+    {
+      "municipality": "Heiloo",
+      "n_train_demands": 500,
+      "n_candidates": 500,
+      "n_aeds": 16,
+      "seed": 42,
+      "grasp_classico_ref": {
+        "train_pct": 48.0706,
+        "eval_pct": 42.5703,
+        "cpu_sec": 0.8427
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 48.0706,
+        "eval_pct": 42.5703,
+        "cpu_sec": 1.4009
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 48.0706,
+        "eval_pct": 42.5703,
+        "cpu_sec": 1.3185,
+        "delta_train_vs_classico_pp": 0.0,
+        "delta_eval_vs_classico_pp": -0.0,
+        "delta_train_vs_rvns_pp": 0.0,
+        "vns_stats": {
+          "ls_calls": 432,
+          "shakes_by_k": {
+            "k1": 115,
+            "k2": 114,
+            "k3": 107
+          },
+          "improv_by_k": {
+            "k1": 1,
+            "k2": 7,
+            "k3": 11
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 1,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.0758,
+          "0.2": 0.1057,
+          "0.3": 0.0964,
+          "0.4": 0.129,
+          "0.5": 0.0714,
+          "0.6": 0.0607,
+          "0.7": 0.0823,
+          "0.8": 0.0723,
+          "0.85": 0.0984,
+          "0.9": 0.0985,
+          "0.95": 0.1094
+        }
+      }
+    },
+    {
+      "municipality": "Heiloo",
+      "n_train_demands": 1000,
+      "n_candidates": 500,
+      "n_aeds": 16,
+      "seed": 42,
+      "grasp_classico_ref": {
+        "train_pct": 46.2312,
+        "eval_pct": 43.2388,
+        "cpu_sec": 1.7623
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 46.2443,
+        "eval_pct": 43.2302,
+        "cpu_sec": 2.4119
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 46.2443,
+        "eval_pct": 43.2302,
+        "cpu_sec": 3.0319,
+        "delta_train_vs_classico_pp": 0.0131,
+        "delta_eval_vs_classico_pp": -0.0086,
+        "delta_train_vs_rvns_pp": -0.0,
+        "vns_stats": {
+          "ls_calls": 431,
+          "shakes_by_k": {
+            "k1": 113,
+            "k2": 112,
+            "k3": 110
+          },
+          "improv_by_k": {
+            "k1": 1,
+            "k2": 2,
+            "k3": 14
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 1,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.1212,
+          "0.2": 0.0622,
+          "0.3": 0.0353,
+          "0.4": 0.0891,
+          "0.5": 0.0956,
+          "0.6": 0.1315,
+          "0.7": 0.1456,
+          "0.8": 0.0835,
+          "0.85": 0.11,
+          "0.9": 0.0914,
+          "0.95": 0.0346
+        }
+      }
+    }
+  ],
+  "experiment_2_table5": [
+    {
+      "municipality": "Aalsmeer",
+      "n_aeds": 3,
+      "n_candidates": 1000,
+      "seed": 100,
+      "grasp_classico_ref": {
+        "train_pct": 23.3652,
+        "eval_pct": 23.5683,
+        "cpu_sec": 1.2962
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 23.3652,
+        "eval_pct": 23.5683,
+        "cpu_sec": 3.221
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 23.3652,
+        "eval_pct": 23.5683,
+        "cpu_sec": 3.6113,
+        "delta_train_vs_classico_pp": 0.0,
+        "delta_eval_vs_classico_pp": 0.0,
+        "delta_train_vs_rvns_pp": 0.0,
+        "vns_stats": {
+          "ls_calls": 509,
+          "shakes_by_k": {
+            "k1": 153,
+            "k2": 143,
+            "k3": 117
+          },
+          "improv_by_k": {
+            "k1": 10,
+            "k2": 26,
+            "k3": 21
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 3,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.1408,
+          "0.2": 0.0616,
+          "0.3": 0.0616,
+          "0.4": 0.1061,
+          "0.5": 0.0178,
+          "0.6": 0.1178,
+          "0.7": 0.0944,
+          "0.8": 0.1157,
+          "0.85": 0.1263,
+          "0.9": 0.1408,
+          "0.95": 0.017
+        },
+        "alpha_counts": {
+          "0.1": 13,
+          "0.2": 6,
+          "0.3": 5,
+          "0.4": 7,
+          "0.5": 3,
+          "0.6": 12,
+          "0.7": 10,
+          "0.8": 11,
+          "0.85": 20,
+          "0.9": 8,
+          "0.95": 1
+        },
+        "alpha_avg_scores": {
+          "0.1": 23.3652,
+          "0.2": 23.3509,
+          "0.3": 23.348,
+          "0.4": 23.3591,
+          "0.5": 23.3232,
+          "0.6": 23.3616,
+          "0.7": 23.3566,
+          "0.8": 23.3613,
+          "0.85": 23.3631,
+          "0.9": 23.3652,
+          "0.95": 23.3221
+        },
+        "selected_candidates": [
+          639,
+          760,
+          768
+        ]
+      }
+    },
+    {
+      "municipality": "Uithoorn",
+      "n_aeds": 7,
+      "n_candidates": 1000,
+      "seed": 101,
+      "grasp_classico_ref": {
+        "train_pct": 48.8691,
+        "eval_pct": 48.1514,
+        "cpu_sec": 2.5395
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 48.8691,
+        "eval_pct": 48.1514,
+        "cpu_sec": 4.7562
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 48.8691,
+        "eval_pct": 48.1514,
+        "cpu_sec": 5.3229,
+        "delta_train_vs_classico_pp": -0.0,
+        "delta_eval_vs_classico_pp": -0.0,
+        "delta_train_vs_rvns_pp": -0.0,
+        "vns_stats": {
+          "ls_calls": 454,
+          "shakes_by_k": {
+            "k1": 123,
+            "k2": 123,
+            "k3": 112
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 11,
+            "k3": 16
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 8,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.0508,
+          "0.2": 0.1372,
+          "0.3": 0.0643,
+          "0.4": 0.1444,
+          "0.5": 0.1232,
+          "0.6": 0.1033,
+          "0.7": 0.1108,
+          "0.8": 0.0288,
+          "0.85": 0.115,
+          "0.9": 0.1108,
+          "0.95": 0.0113
+        },
+        "alpha_counts": {
+          "0.1": 5,
+          "0.2": 15,
+          "0.3": 3,
+          "0.4": 8,
+          "0.5": 15,
+          "0.6": 6,
+          "0.7": 14,
+          "0.8": 5,
+          "0.85": 16,
+          "0.9": 8,
+          "0.95": 1
+        },
+        "alpha_avg_scores": {
+          "0.1": 48.6488,
+          "0.2": 48.7724,
+          "0.3": 48.6325,
+          "0.4": 48.7751,
+          "0.5": 48.7538,
+          "0.6": 48.7137,
+          "0.7": 48.7085,
+          "0.8": 48.5017,
+          "0.85": 48.7499,
+          "0.9": 48.7262,
+          "0.95": 48.2913
+        },
+        "selected_candidates": [
+          252,
+          566,
+          428,
+          203,
+          394,
+          313,
+          530
+        ]
+      }
+    },
+    {
+      "municipality": "Heiloo",
+      "n_aeds": 16,
+      "n_candidates": 1000,
+      "seed": 102,
+      "grasp_classico_ref": {
+        "train_pct": 46.7925,
+        "eval_pct": 43.9933,
+        "cpu_sec": 4.7022
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 46.7925,
+        "eval_pct": 43.9933,
+        "cpu_sec": 6.4596
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 46.7925,
+        "eval_pct": 43.9933,
+        "cpu_sec": 6.3436,
+        "delta_train_vs_classico_pp": 0.0,
+        "delta_eval_vs_classico_pp": 0.0,
+        "delta_train_vs_rvns_pp": 0.0,
+        "vns_stats": {
+          "ls_calls": 453,
+          "shakes_by_k": {
+            "k1": 122,
+            "k2": 122,
+            "k3": 113
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 9,
+            "k3": 17
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.1786,
+          "0.2": 0.1096,
+          "0.3": 0.0787,
+          "0.4": 0.0425,
+          "0.5": 0.0211,
+          "0.6": 0.1107,
+          "0.7": 0.1272,
+          "0.8": 0.114,
+          "0.85": 0.0224,
+          "0.9": 0.1257,
+          "0.95": 0.0695
+        },
+        "alpha_counts": {
+          "0.1": 6,
+          "0.2": 10,
+          "0.3": 11,
+          "0.4": 4,
+          "0.5": 4,
+          "0.6": 11,
+          "0.7": 16,
+          "0.8": 14,
+          "0.85": 5,
+          "0.9": 11,
+          "0.95": 4
+        },
+        "alpha_avg_scores": {
+          "0.1": 46.6935,
+          "0.2": 46.5973,
+          "0.3": 46.5514,
+          "0.4": 46.4967,
+          "0.5": 46.3785,
+          "0.6": 46.5988,
+          "0.7": 46.614,
+          "0.8": 46.603,
+          "0.85": 46.3667,
+          "0.9": 46.6204,
+          "0.95": 46.5346
+        },
+        "selected_candidates": [
+          818,
+          606,
+          494,
+          478,
+          48,
+          186,
+          485,
+          489,
+          241,
+          324,
+          320,
+          469,
+          315,
+          452,
+          659,
+          810
+        ]
+      }
+    },
+    {
+      "municipality": "Enkhuizen",
+      "n_aeds": 24,
+      "n_candidates": 1000,
+      "seed": 103,
+      "grasp_classico_ref": {
+        "train_pct": 60.5693,
+        "eval_pct": 58.0713,
+        "cpu_sec": 5.1372
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 60.5649,
+        "eval_pct": 58.1136,
+        "cpu_sec": 7.2119
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 60.5724,
+        "eval_pct": 57.9034,
+        "cpu_sec": 6.0253,
+        "delta_train_vs_classico_pp": 0.0031,
+        "delta_eval_vs_classico_pp": -0.1679,
+        "delta_train_vs_rvns_pp": 0.0075,
+        "vns_stats": {
+          "ls_calls": 427,
+          "shakes_by_k": {
+            "k1": 112,
+            "k2": 111,
+            "k3": 108
+          },
+          "improv_by_k": {
+            "k1": 1,
+            "k2": 3,
+            "k3": 12
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 2,
+          "pr_improvements_over_sb": 5,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.1407,
+          "0.2": 0.2132,
+          "0.3": 0.0158,
+          "0.4": 0.013,
+          "0.5": 0.0702,
+          "0.6": 0.0816,
+          "0.7": 0.0628,
+          "0.8": 0.1759,
+          "0.85": 0.1138,
+          "0.9": 0.0579,
+          "0.95": 0.055
+        },
+        "alpha_counts": {
+          "0.1": 13,
+          "0.2": 14,
+          "0.3": 1,
+          "0.4": 1,
+          "0.5": 5,
+          "0.6": 11,
+          "0.7": 9,
+          "0.8": 19,
+          "0.85": 16,
+          "0.9": 6,
+          "0.95": 1
+        },
+        "alpha_avg_scores": {
+          "0.1": 60.3292,
+          "0.2": 60.379,
+          "0.3": 60.1019,
+          "0.4": 60.0735,
+          "0.5": 60.2332,
+          "0.6": 60.2661,
+          "0.7": 60.2403,
+          "0.8": 60.3333,
+          "0.85": 60.3119,
+          "0.9": 60.2324,
+          "0.95": 60.2275
+        },
+        "selected_candidates": [
+          402,
+          188,
+          346,
+          549,
+          398,
+          332,
+          96,
+          409,
+          229,
+          501,
+          289,
+          922,
+          429,
+          293,
+          765,
+          163,
+          714,
+          380,
+          147,
+          86,
+          574,
+          277,
+          473,
+          135
+        ]
+      }
+    },
+    {
+      "municipality": "Zaanstad",
+      "n_aeds": 44,
+      "n_candidates": 1000,
+      "seed": 104,
+      "grasp_classico_ref": {
+        "train_pct": 53.2045,
+        "eval_pct": 49.6265,
+        "cpu_sec": 6.1207
+      },
+      "grasp_reativo_vns_ref": {
+        "train_pct": 53.1887,
+        "eval_pct": 49.5028,
+        "cpu_sec": 6.0431
+      },
+      "grasp_reativo_vns_pr": {
+        "train_pct": 53.2513,
+        "eval_pct": 49.414,
+        "cpu_sec": 4.0539,
+        "delta_train_vs_classico_pp": 0.0468,
+        "delta_eval_vs_classico_pp": -0.2125,
+        "delta_train_vs_rvns_pp": 0.0626,
+        "vns_stats": {
+          "ls_calls": 407,
+          "shakes_by_k": {
+            "k1": 106,
+            "k2": 104,
+            "k3": 101
+          },
+          "improv_by_k": {
+            "k1": 2,
+            "k2": 3,
+            "k3": 5
+          }
+        },
+        "pr_stats": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 8,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "alpha_probabilities": {
+          "0.1": 0.0244,
+          "0.2": 0.1014,
+          "0.3": 0.0949,
+          "0.4": 0.074,
+          "0.5": 0.0659,
+          "0.6": 0.1062,
+          "0.7": 0.1788,
+          "0.8": 0.0426,
+          "0.85": 0.0908,
+          "0.9": 0.1355,
+          "0.95": 0.0855
+        },
+        "alpha_counts": {
+          "0.1": 3,
+          "0.2": 9,
+          "0.3": 12,
+          "0.4": 5,
+          "0.5": 4,
+          "0.6": 15,
+          "0.7": 12,
+          "0.8": 7,
+          "0.85": 8,
+          "0.9": 14,
+          "0.95": 7
+        },
+        "alpha_avg_scores": {
+          "0.1": 52.9322,
+          "0.2": 52.9995,
+          "0.3": 53.003,
+          "0.4": 52.9714,
+          "0.5": 52.9614,
+          "0.6": 53.0048,
+          "0.7": 53.0539,
+          "0.8": 52.9464,
+          "0.85": 52.9895,
+          "0.9": 53.0064,
+          "0.95": 52.9841
+        },
+        "selected_candidates": [
+          792,
+          687,
+          889,
+          509,
+          260,
+          405,
+          632,
+          923,
+          90,
+          563,
+          783,
+          441,
+          750,
+          305,
+          790,
+          54,
+          310,
+          570,
+          153,
+          826,
+          139,
+          932,
+          970,
+          316,
+          852,
+          776,
+          694,
+          399,
+          454,
+          410,
+          182,
+          733,
+          644,
+          787,
+          27,
+          349,
+          699,
+          875,
+          198,
+          947,
+          560,
+          94,
+          652,
+          472
+        ]
+      }
+    }
+  ],
+  "experiment_3_table6": [
+    {
+      "municipality": "Aalsmeer",
+      "n_candidates": 1000,
+      "seed": 100,
+      "eval_pct_by_n": {
+        "0": 11.2805,
+        "5": 36.1399,
+        "10": 45.9833,
+        "20": 56.8005,
+        "40": 66.6165
+      },
+      "train_pct_by_n": {
+        "5": 35.9775,
+        "10": 46.8805,
+        "20": 59.0399,
+        "40": 69.5342
+      },
+      "cpu_sec_by_n": {
+        "5": 2.7814,
+        "10": 4.2226,
+        "20": 6.2744,
+        "40": 9.4843
+      },
+      "vns_stats_by_n": {
+        "5": {
+          "ls_calls": 427,
+          "shakes_by_k": {
+            "k1": 113,
+            "k2": 113,
+            "k3": 105
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 8,
+            "k3": 9
+          }
+        },
+        "10": {
+          "ls_calls": 415,
+          "shakes_by_k": {
+            "k1": 108,
+            "k2": 108,
+            "k3": 103
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 5,
+            "k3": 7
+          }
+        },
+        "20": {
+          "ls_calls": 440,
+          "shakes_by_k": {
+            "k1": 118,
+            "k2": 115,
+            "k3": 111
+          },
+          "improv_by_k": {
+            "k1": 3,
+            "k2": 4,
+            "k3": 15
+          }
+        },
+        "40": {
+          "ls_calls": 440,
+          "shakes_by_k": {
+            "k1": 117,
+            "k2": 116,
+            "k3": 111
+          },
+          "improv_by_k": {
+            "k1": 1,
+            "k2": 5,
+            "k3": 15
+          }
+        }
+      },
+      "pr_stats_by_n": {
+        "5": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 3,
+          "n_pr_targets_list": 4
+        },
+        "10": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "20": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 1,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "40": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 2,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        }
+      },
+      "grasp_classico_ref_train_by_n": {
+        "5": 35.9775,
+        "10": 46.8805,
+        "20": 59.0399,
+        "40": 69.5111
+      },
+      "grasp_classico_ref_eval_by_n": {
+        "0": 11.2805,
+        "5": 36.1399,
+        "10": 45.9833,
+        "20": 56.8005,
+        "40": 66.6837
+      },
+      "grasp_reativo_vns_ref_train_by_n": {
+        "5": 35.9775,
+        "10": 46.8805,
+        "20": 59.0399,
+        "40": 69.4922
+      },
+      "grasp_reativo_vns_ref_eval_by_n": {
+        "0": 11.2805,
+        "5": 36.1399,
+        "10": 45.9833,
+        "20": 56.8005,
+        "40": 66.3929
+      }
+    },
+    {
+      "municipality": "Uithoorn",
+      "n_candidates": 1000,
+      "seed": 101,
+      "eval_pct_by_n": {
+        "0": 12.8947,
+        "5": 46.9695,
+        "10": 56.9722,
+        "20": 66.8151,
+        "40": 75.0812
+      },
+      "train_pct_by_n": {
+        "5": 47.4105,
+        "10": 57.6318,
+        "20": 67.8263,
+        "40": 76.9031
+      },
+      "cpu_sec_by_n": {
+        "5": 3.5536,
+        "10": 4.7719,
+        "20": 5.7833,
+        "40": 9.6788
+      },
+      "vns_stats_by_n": {
+        "5": {
+          "ls_calls": 464,
+          "shakes_by_k": {
+            "k1": 129,
+            "k2": 129,
+            "k3": 110
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 19,
+            "k3": 14
+          }
+        },
+        "10": {
+          "ls_calls": 461,
+          "shakes_by_k": {
+            "k1": 124,
+            "k2": 124,
+            "k3": 117
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 7,
+            "k3": 21
+          }
+        },
+        "20": {
+          "ls_calls": 460,
+          "shakes_by_k": {
+            "k1": 125,
+            "k2": 125,
+            "k3": 114
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 11,
+            "k3": 18
+          }
+        },
+        "40": {
+          "ls_calls": 408,
+          "shakes_by_k": {
+            "k1": 105,
+            "k2": 104,
+            "k3": 103
+          },
+          "improv_by_k": {
+            "k1": 1,
+            "k2": 1,
+            "k3": 7
+          }
+        }
+      },
+      "pr_stats_by_n": {
+        "5": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 6,
+          "n_pr_targets_list": 4
+        },
+        "10": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "20": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 3,
+          "pr_improvements_over_sb": 3,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "40": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 23,
+          "pr_improvements_over_sb": 4,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        }
+      },
+      "grasp_classico_ref_train_by_n": {
+        "5": 47.4105,
+        "10": 57.6318,
+        "20": 67.8215,
+        "40": 76.8776
+      },
+      "grasp_classico_ref_eval_by_n": {
+        "0": 12.8947,
+        "5": 46.9695,
+        "10": 56.9722,
+        "20": 66.6831,
+        "40": 75.2265
+      },
+      "grasp_reativo_vns_ref_train_by_n": {
+        "5": 47.4105,
+        "10": 57.6318,
+        "20": 67.8263,
+        "40": 76.9019
+      },
+      "grasp_reativo_vns_ref_eval_by_n": {
+        "0": 12.8947,
+        "5": 46.9695,
+        "10": 56.9722,
+        "20": 66.8151,
+        "40": 75.1194
+      }
+    },
+    {
+      "municipality": "Zaanstad",
+      "n_candidates": 1000,
+      "seed": 104,
+      "eval_pct_by_n": {
+        "0": 27.2164,
+        "5": 35.896,
+        "10": 41.5359,
+        "20": 48.1012,
+        "40": 55.6432
+      },
+      "train_pct_by_n": {
+        "5": 36.6715,
+        "10": 42.0163,
+        "20": 49.5859,
+        "40": 58.7371
+      },
+      "cpu_sec_by_n": {
+        "5": 0.7155,
+        "10": 1.7128,
+        "20": 2.6528,
+        "40": 4.6796
+      },
+      "vns_stats_by_n": {
+        "5": {
+          "ls_calls": 384,
+          "shakes_by_k": {
+            "k1": 96,
+            "k2": 96,
+            "k3": 96
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 0,
+            "k3": 0
+          }
+        },
+        "10": {
+          "ls_calls": 412,
+          "shakes_by_k": {
+            "k1": 106,
+            "k2": 105,
+            "k3": 105
+          },
+          "improv_by_k": {
+            "k1": 1,
+            "k2": 0,
+            "k3": 9
+          }
+        },
+        "20": {
+          "ls_calls": 408,
+          "shakes_by_k": {
+            "k1": 106,
+            "k2": 106,
+            "k3": 100
+          },
+          "improv_by_k": {
+            "k1": 0,
+            "k2": 6,
+            "k3": 4
+          }
+        },
+        "40": {
+          "ls_calls": 390,
+          "shakes_by_k": {
+            "k1": 99,
+            "k2": 98,
+            "k3": 97
+          },
+          "improv_by_k": {
+            "k1": 1,
+            "k2": 1,
+            "k3": 1
+          }
+        }
+      },
+      "pr_stats_by_n": {
+        "5": {
+          "pr_calls": 0,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 1,
+          "n_pr_targets_list": 4
+        },
+        "10": {
+          "pr_calls": 91,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 0,
+          "ranked_pool_size": 13,
+          "n_pr_targets_list": 4
+        },
+        "20": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 0,
+          "pr_improvements_over_sb": 2,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        },
+        "40": {
+          "pr_calls": 95,
+          "pr_skipped_distance_lt_2": 12,
+          "pr_improvements_over_sb": 5,
+          "ranked_pool_size": 16,
+          "n_pr_targets_list": 4
+        }
+      },
+      "grasp_classico_ref_train_by_n": {
+        "5": 36.6715,
+        "10": 42.0163,
+        "20": 49.5849,
+        "40": 58.7224
+      },
+      "grasp_classico_ref_eval_by_n": {
+        "0": 27.2164,
+        "5": 35.896,
+        "10": 41.5359,
+        "20": 48.1145,
+        "40": 55.66
+      },
+      "grasp_reativo_vns_ref_train_by_n": {
+        "5": 36.6715,
+        "10": 42.0163,
+        "20": 49.5859,
+        "40": 58.7366
+      },
+      "grasp_reativo_vns_ref_eval_by_n": {
+        "0": 27.2164,
+        "5": 35.896,
+        "10": 41.5359,
+        "20": 48.1012,
+        "40": 55.6703
+      }
+    }
+  ]
+}
