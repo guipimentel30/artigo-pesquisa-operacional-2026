@@ -8,8 +8,6 @@ Pra rodar os 4 primeiros experimentos em sequencia (do baseline ate o metodo com
 .\.venv\Scripts\python.exe simulacao_grasp_reativo_vns_pr.py
 ```
 
-Se voce estiver na pasta raiz do projeto, e so colocar `codigo\` na frente dos caminhos.
-
 ## Experimento 5: Escala ampliada e TTT-Plots
 
 Esse demora bem mais pq faz a calibracao e depois 100 execucoes por alvo:
